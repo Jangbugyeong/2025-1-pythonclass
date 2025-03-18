@@ -42,3 +42,14 @@ print(colors[:])
 # 패킹,언패킹
 c1,_,c2,c3,_,_ = colors
 print(c1,c2,c3)
+
+#퀴즈
+first=['egg','salad','bread','soup','canafe']
+second=['fish','lamb','orange','grape','mango']
+third=['apple','banana','orange','grape','mango']
+
+order=[first,second,third]
+john=[order[0][:-2],second[1::3],third[0]]
+del john[2]
+john.extend([order[2][0:1]])
+print(john)
