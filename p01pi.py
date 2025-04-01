@@ -9,17 +9,23 @@ pi=pi*((2 * n + 1) ** 2 - 1) / (2*n + 1) ** 2
 
 print(pi*4)
 
+pilist = [
+
+]
+
 pi=1
 
-for n in range(1,100):
+for n in range(1,1000):
     pi=pi*((2 * n + 1) ** 2 - 1) / (2*n + 1) ** 2
+  #  print(pi*4, ',')
+    pilist.append(pi*4)
 
 print(pi*4)
 
+
 import matplotlib.pyplot as plt
-plt.plot([1,3,4])
+plt.plot(pilist)
 plt.show()
 
-import opencv
 
 
