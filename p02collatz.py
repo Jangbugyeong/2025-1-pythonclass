@@ -19,7 +19,7 @@ for n in range(1,1000):
             n=3 * n + 1
             print(n)
             i=i+1
-    print('반복수:',i)
+    print('반복되는 수:',i)
 
 max_i = 0
 
@@ -37,6 +37,7 @@ for n in range(1, 1000):
         max_i = i
 
 print("i의 최대값:", max_i)
+
 
 
 
