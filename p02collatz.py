@@ -43,6 +43,8 @@ maxvalue=0
 maxvaluen=0
 max2value=0
 max2n=0
+max3value=0
+max3n=0
 for n in range(1,100):
     print(f'{n=}')
     ncount=0
@@ -64,10 +66,13 @@ for n in range(1,100):
     elif ncount > max2value:
         max2value = ncount
         max2n = n
+    elif ncount > max3value:
+        max3value = max2value
+        max3n=n
     if maxvalue < ncount:
         maxvalue = ncount
         maxvaluen=n
-print(f'{maxvalue=},{maxvaluen=},{max2value=},{max2n=}')
+print(f'{maxvalue=},{maxvaluen=},{max2value=},{max2n=},{max3value=},{max3n=}')
 
 
 
