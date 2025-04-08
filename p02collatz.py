@@ -39,12 +39,12 @@ for n in range(1, 1000):
 
 print("i의 최대값:", max_i)
 
-maxvalue=0
-maxvaluen=0
-max2value=0
-max2n=0
-max3value=0
-max3n=0
+maxvalue = 0
+maxvaluen = 0
+max2value = 0
+max2n = 0
+max3value = 0
+max3n = 0
 for n in range(1,100):
     print(f'{n=}')
     ncount=0
