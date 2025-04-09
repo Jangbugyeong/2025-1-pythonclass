@@ -54,9 +54,7 @@ for n in range(1,100):
             i = 3 * i + 1
         else:
             i = i / 2
-
         ncount=ncount+1
-
     print(f'{ncount}')
     if ncount > maxvalue:
         max2value = maxvalue
